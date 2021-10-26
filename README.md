@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="logo" width="450px"  title="#Be The Hero" src="./logo.svg" />
+  <img alt="logo" width="450px"  title="#Be The Hero" src="./assets/logo.svg" />
 </h1>
 
 <h4 align="center"> 
@@ -44,14 +44,14 @@ Você pode acessar o Layout pelo Figma atravês <a href="https://www.figma.com/f
 <br/>
 <h1>Versão Mobile</h1>
 <h1 align="center">
-  <img alt="Be The Hero"  title="#Be The Hero" src="./preview.png" />
+  <img alt="Be The Hero"  title="#Be The Hero" src="./assets/preview.png" />
 </h1>
 
 <h1>Versão web</h1>
 <p align="center">
-  <img alt="Be The Hero"  width="450px" title="#Be The Hero" src="./landing.png" />
-  <img alt="Be The Hero"  width="450px" title="#Be The Hero" src="./cadastro.png" />
-  <img alt="Be The Hero"  width="450px" title="#Be The Hero" src="./cadastroOng.png" />
+  <img alt="Be The Hero"  width="450px" title="#Be The Hero" src="./assets/landing.png" />
+  <img alt="Be The Hero"  width="450px" title="#Be The Hero" src="./assets/cadastro.png" />
+  <img alt="Be The Hero"  width="450px" title="#Be The Hero" src="./assets/cadastroOng.png" />
 </p>
 
 ---
