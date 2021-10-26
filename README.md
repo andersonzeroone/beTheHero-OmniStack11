@@ -1,14 +1,9 @@
 <h1 align="center">
-  <img alt="logo" width="450px"  title="#Plant Manager" src="./logo.svg" />
+  <img alt="logo" width="450px"  title="#Be The Hero" src="./logo.svg" />
 </h1>
-
-<h1 align="center">
-  <img alt="Plant Manager"  title="#Plant Manager" src="./preview.png" />
-</h1>
-
 
 <h4 align="center"> 
-	🚧  Plant Manager 🚀 concluído 🚧
+	🚧 Be The Hero 🚀 concluído 🚧
 </h4>
 
 <br/>
@@ -27,89 +22,168 @@
 
 ## Sobre o projeto
 
-<p align="left">Plant Manager é um aplicativo que ajuda a lembrar de regar e acompanhar suas plantas.
+<p align="left">Be The Hero é uma plataforma que ajuda Ongs a encontrar pessoas que estão dispostas a ajudar em algumas situações. Basta o usuário cadastrar a Ongs em seguida cadastrar algum caso que precisa de ajuda, seja uma ajuda financeira ou mão de obra.
 
-Projeto desenvolvido durante a NLW - Next Level Week oferecida pela  [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).. O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+Projeto desenvolvido durante a semana OmniStack 11 oferecida pela  [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).. O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 </p>
 
 <br/>
 
 ##  Funcionalidades
 
-- [x] Listar plantas.
-  - [x] Adicionar e remover planatas.
-  - [x] Definir lembrantes para cada planta.
-  - [x] Recebimento de notificações de lembrete de cada planata.
-  - [x] além de selecionar um ou mais ítens de coleta: 
+- [x] Cadastro de usuário.
+  - [x] Cadastro de ONGS.
+  - [x] Exibi casos e Ongs cadastrados.
+  - [x] Exibi informações detalhadas dos casos.
+  - [x] Permiti entrar em contato com a ONG via Whatsapp
 ---
 
 ## Layout
-Você pode acessar o Layout pelo Figma atravês <a href="https://www.figma.com/file/BThXfmgEFRfDkbcd1dTXf4/PlantManager-(Copy)?node-id=0%3A1">desse link</a>.
+Você pode acessar o Layout pelo Figma atravês <a href="https://www.figma.com/file/RNHajWbLbxioQgZ9WI829p/Be-The-Hero---OmniStack-11-(Copy)?node-id=0%3A1">desse link</a>.
 
 <br/>
+<h1>Versão Mobile</h1>
+<h1 align="center">
+  <img alt="Be The Hero"  title="#Be The Hero" src="./preview.png" />
+</h1>
+
+<h1>Versão web</h1>
+<p align="center">
+  <img alt="Be The Hero"  width="450px" title="#Be The Hero" src="./landing.png" />
+  <img alt="Be The Hero"  width="450px" title="#Be The Hero" src="./cadastro.png" />
+  <img alt="Be The Hero"  width="450px" title="#Be The Hero" src="./cadastroOng.png" />
+</p>
 
 ---
-
 ## Como executar o projeto
+Este projeto é divido em três partes:
+1. Backend (pasta backend) 
+2. Frontend (pasta web)
+3. Mobile (pasta mobile)
+
+anto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com) e um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-#### 🎲 Rodando o projeto
+#### 🎲Clonando o projeto
 
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:andersonzeroone/plantmanager-Nlw05.git
+$ git clone git@github.com:andersonzeroone/beTheHero-OmniStack11.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd plantmanager-Nlw05
+$ cd beTheHero-OmniStack11
+
+```
+#### 🎲 Rodando o Backend (servidor)
+
+```bash
+
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd backend
 
 # Instale as dependências
 $ npm install ou yarn install
 
-# No arquivo Api, dentro da pasta service substitua o endereço de ip pelo seu endereço de ip.
-
-baseURL: 'http://seu-endereço-de-Ip:3333' 
-
 # Execute a aplicação
-$ expo start
+$ npm start ou  yarn start 
 
-# O projeto inciará na porta:3333 - acesse http://localhost:3333 
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
 
-# No arquivo packge.json na raiz do projeto, no script "json-server" substitua o endereço de ip pelo seu endereço de ip.
+```
+<!-- <p align="center">
+  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p> -->
 
-json-server: json-server ./src/services/server.json  -H seu-endereco-de-id -p 3333
+#### 🧭 Rodando a aplicação web (Frontend)
 
-# Execute o json-server para simular um servidor online
+```bash
 
-npm json-server ou yarn json-server
+# Vá para a pasta da aplicação Front End
+$ cd web
+
+# Instale as dependências
+$ npm install ou yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm start ou  yarn start 
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
 ```
 
----
+
+#### 🧭 Rodando a aplicação mobile
+
+```bash
+
+# Vá para a pasta da aplicação Front End
+$ cd mobile
+
+# Instale as dependências
+$ npm install ou yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ expo start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+acesse localhost:19002, leia o QR Code no seu celular e utilize o aplicativo Expo para rodar a versão mobile no seu smartphone. Ou com algum emulador Android/iOS para rodar no seu computador.
+
+```
 ##  Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### [](https://github.com/tgmarinho/Ecoleta#mobile-react-native--typescript)**Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
+**Backend**  [NodeJS](https://nodejs.org/en/) 
+-   **[Express](https://expressjs.com/)**
+-   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   **[KnexJS](http://knexjs.org/)**
+-   **[SQLite](https://github.com/mapbox/node-sqlite3)***
+-   **[Celebrate](https://github.com/arb/celebrate)**
+
+
+> See the file  [package.json](https://github.com/andersonzeroone/beTheHero-OmniStack11/blob/main/backend/package.json)
+> 
+
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Leaflet](https://react-leaflet.js.org/en/)**
+-   **[React Leaflet](https://react-leaflet.js.org/)**
+
+
+> See the file  [package.json](https://github.com/andersonzeroone/beTheHero-OmniStack11/blob/main/web/package.json)
+
+**Mobile**  ([React Native](http://www.reactnative.com/))
 
 -   **[Expo](https://expo.io/)**
 -   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
--   **[expo notification](https://docs.expo.dev/versions/latest/sdk/notifications/)**
+-    **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
+
+-   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
 -   **[React Navigation](https://reactnavigation.org/)**
 -   **[Axios](https://github.com/axios/axios)**
--   **[Json-server](https://github.com/typicode/json-server)**
 
-> Veja o arquivo  [package.json](https://github.com/andersonzeroone/plantmanager-Nlw05/blob/main/package.json)
+> Veja o arquivo  [package.json](https://github.com/andersonzeroone/beTheHero-OmniStack11/blob/main/mobile/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
 
--   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
+**Utilitários**
+
+-   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/RNHajWbLbxioQgZ9WI829p/Be-The-Hero---OmniStack-11-(Copy)?node-id=0%3A1)**
 
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  
 
+-   Maps:  **[Leaflet](https://react-leaflet.js.org/en/)**
+
+-   API Test:  **[Insomnia](https://insomnia.rest/)**
 
 ---
 ## Contribuidores
