@@ -177,7 +177,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 **Utilitários**
 
--   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/RNHajWbLbxioQgZ9WI829p/Be-The-Hero---OmniStack-11-(Copy)?node-id=0%3A1)**
+-   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Be The Hero)](https://www.figma.com/file/RNHajWbLbxioQgZ9WI829p/Be-The-Hero---OmniStack-11-(Copy)?node-id=0%3A1)**
 
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  
 
