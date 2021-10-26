@@ -24,7 +24,7 @@
 
 <p align="left">Be The Hero é uma plataforma que ajuda Ongs a encontrar pessoas que estão dispostas a ajudar em algumas situações. Basta o usuário cadastrar a Ongs em seguida cadastrar algum caso que precisa de ajuda, seja uma ajuda financeira ou mão de obra.
 
-Projeto desenvolvido durante a semana OmniStack 11 oferecida pela  [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).. O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+Projeto desenvolvido durante a semana OmniStack 11 oferecida pela  [Rocketseat](https://blog.rocketseat.com.br).. O OmniStack é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 </p>
 
 <br/>
