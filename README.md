@@ -24,7 +24,7 @@
 
 <p align="left">Be The Hero é uma plataforma que ajuda Ongs a encontrar pessoas que estão dispostas a ajudar em algumas situações. Basta o usuário cadastrar a Ongs em seguida cadastrar algum caso que precisa de ajuda, seja uma ajuda financeira ou mão de obra.
 
-Projeto desenvolvido durante a semana OmniStack 11 oferecida pela  [Rocketseat](https://blog.rocketseat.com.br).. O OmniStack é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+Projeto desenvolvido durante a semana OmniStack 11 oferecida pela  [Rocketseat](https://blog.rocketseat.com.br). O OmniStack é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 </p>
 
 <br/>
@@ -33,13 +33,13 @@ Projeto desenvolvido durante a semana OmniStack 11 oferecida pela  [Rocketseat](
 
 - [x] Cadastro de usuário.
   - [x] Cadastro de ONGS.
-  - [x] Exibi casos e Ongs cadastrados.
-  - [x] Exibi informações detalhadas dos casos.
-  - [x] Permiti entrar em contato com a ONG via Whatsapp
+  - [x] Exibe casos e Ongs cadastrados.
+  - [x] Exibe informações detalhadas dos casos.
+  - [x] Permite entrar em contato com a ONG via Whatsapp
 ---
 
 ## Layout
-Você pode acessar o Layout pelo Figma atravês <a href="https://www.figma.com/file/RNHajWbLbxioQgZ9WI829p/Be-The-Hero---OmniStack-11-(Copy)?node-id=0%3A1">desse link</a>.
+Você pode acessar o Layout pelo Figma através <a href="https://www.figma.com/file/RNHajWbLbxioQgZ9WI829p/Be-The-Hero---OmniStack-11-(Copy)?node-id=0%3A1"> deste link</a>.
 
 <br/>
 <h1>Versão Mobile</h1>
@@ -61,12 +61,12 @@ Este projeto é divido em três partes:
 2. Frontend (pasta web)
 3. Mobile (pasta mobile)
 
-anto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
+Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com) e um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com) é um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 #### 🎲Clonando o projeto
 
@@ -93,7 +93,7 @@ $ npm install ou yarn install
 # Execute a aplicação
 $ npm start ou  yarn start 
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# O servidor iniciará na porta:3333 - acesse http://localhost:3333 
 
 ```
 <!-- <p align="center">
@@ -218,7 +218,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto está sob a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Anderson Pablo 👋🏽 [Entre em contato!](https://www.linkedin.com/in/anderson-pablo-js/)
 
